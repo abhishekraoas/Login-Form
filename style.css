@@ -4,20 +4,19 @@
 body{
     background-image: url('images/5.png');
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(238, 50, 50);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .formbox{
-  width: 400px;
-  height: 400px;
+  width: 474px;
+  height: 474px;
 }
 .input_group{
-    margin: 5% auto 15% auto; 
+    margin: -9% 10% 12% 10%;
     border: 1px solid #888;
     width: 80%;
   
@@ -44,9 +43,10 @@ button{
     background-color: #3f069b;
     color: white;
     padding: 8px 20px;
-    margin: 8px 0;
+    margin: 30px 30px;
     border: none;
     cursor: pointer;
+    
 }
 button:hover{
     background-color: red;
@@ -58,7 +58,7 @@ button:hover{
     position: relative;
 }
  .container{
-    background-color: rgb(173, 215, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
     max-width: 500px;
@@ -67,7 +67,7 @@ button:hover{
     margin-right: 50px;
  }
  .container2{
-     padding: 16px;
+     padding: 30px;
 
  }
 
