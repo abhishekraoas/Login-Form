@@ -11,35 +11,34 @@ body{
     justify-content: center;
 }
 
-/* .formbox{
-  width: 380px;
-  height: 480px;
-  position: relative;
-  margin: 6% auto;
-} */
+.formbox{
+  width: 400px;
+  height: 400px;
+}
+.input_group{
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  
+
+}
 
 .avatar{
     width: 100px;
     height: 100px;
     
 }
-.input [type=password]{
+input [type=text], input [type=password]{
     width: 100%;
-    padding: 12px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
     border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    box-sizing: border-box;
     
 
 }
 
-.input [type=text] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
 button{
     background-color: #3f069b;
     color: white;
@@ -66,10 +65,16 @@ button:hover{
     margin-top: 50px;
     margin-right: 50px;
  }
+ .container2{
+     padding: 16px;
+
+ }
 
  .container h2{
      text-align: center;
  }
-.formbox{
-    
-}
+ .closebtn{
+    position: absolute;
+    right: 25px;
+    top: 0;
+ }
