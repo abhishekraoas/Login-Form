@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url('images/5.png');
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(238, 50, 50);
     background-attachment: fixed;
