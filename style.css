@@ -1,8 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
+}
+body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(238, 50, 50);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* .formbox{
@@ -15,23 +21,24 @@
 .avatar{
     width: 100px;
     height: 100px;
+    
 }
-/* .input[type=text], [type=password]{
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+.input [type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
     
 
-} */
+}
 
-.input[type=password], [type=text] {
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+.input [type=text] {
+    width: 100%;
+    padding: 12px;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
 button{
     background-color: #3f069b;
@@ -43,4 +50,26 @@ button{
 }
 button:hover{
     background-color: red;
+}
+
+.login_img{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+ .container{
+    background-color: rgb(173, 215, 255);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+ }
+
+ .container h2{
+     text-align: center;
+ }
+.formbox{
+    
 }
