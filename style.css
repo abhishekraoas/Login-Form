@@ -16,7 +16,7 @@ body{
   height: 474px;
 }
 .input_group{
-    margin: -9% 10% 12% 10%;
+    margin: -9% 0 0 10%;
     border: 1px solid #888;
     width: 80%;
   
@@ -28,15 +28,16 @@ body{
     height: 100px;
     
 }
-input [type=text], input [type=password]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    
-
+input[type=text], input[type=password]{
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;  
+}
+input{
+    margin-left: ;
 }
 
 button{
@@ -54,7 +55,7 @@ button:hover{
 
 .login_img{
     text-align: center;
-    margin: 24px 0 12px 0;
+    margin: 30px 0 -30px 0;
     position: relative;
 }
  .container{
@@ -74,8 +75,10 @@ button:hover{
  .container h2{
      text-align: center;
  }
- .closebtn{
-    position: absolute;
-    right: 25px;
-    top: 0;
+ span{
+
+ }
+
+ a{
+     
  }
