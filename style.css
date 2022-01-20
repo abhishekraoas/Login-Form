@@ -17,7 +17,6 @@ body{
 }
 .input_group{
     margin: -9% 0 0 10%;
-    border: 1px solid #888;
     width: 80%;
   
 
@@ -36,9 +35,7 @@ input[type=text], input[type=password]{
         border: 2px solid black;   
         box-sizing: border-box;  
 }
-input{
-    margin-left: ;
-}
+
 
 button{
     background-color: #3f069b;
@@ -75,10 +72,8 @@ button:hover{
  .container h2{
      text-align: center;
  }
- span{
-
- }
+ 
 
  a{
-     
+ padding: 10px;
  }
