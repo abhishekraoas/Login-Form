@@ -16,7 +16,7 @@ body{
   height: 474px;
 }
 .input_group{
-    margin: -9% 0 0 10%;
+    margin: -4% 0 0 11%;
     width: 80%;
   
 
@@ -75,5 +75,5 @@ button:hover{
  
 
  a{
- padding: 10px;
+ padding: 0px 28px 0px 42px;
  }
